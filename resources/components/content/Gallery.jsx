@@ -75,12 +75,13 @@ const Gallery = () => {
 
   return (
     <section className="flex flex-col lg:flex-row py-16 text-white">
-      <div className="lg:w-1/3 p-6 space-y-6">
+      {/* Descripción y categorías */}
+      <div className="lg:w-1/3 w-full p-6 space-y-6">
         <div className="mb-8">
-          <h1 className="text-5xl font-extrabold text-transparent bg-gradient-to-r from-teal-300 via-green-400 to-blue-500 bg-clip-text mb-4 drop-shadow-md">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-transparent bg-gradient-to-r from-teal-300 via-green-400 to-blue-500 bg-clip-text mb-4 drop-shadow-md">
             Discover Captivating Visuals
           </h1>
-          <p className="text-xl text-gray-200 leading-relaxed tracking-wide drop-shadow-md">
+          <p className="text-lg sm:text-xl lg:text-2xl text-gray-200 leading-relaxed tracking-wide drop-shadow-md">
             Immerse yourself in a stunning gallery of images across multiple categories. Let your imagination run wild with breathtaking visuals.
           </p>
         </div>
@@ -116,7 +117,7 @@ const Gallery = () => {
                 />
               </div>
               <span
-                className={`text-xl font-semibold transition-all duration-300 ${
+                className={`text-xl sm:text-2xl font-semibold transition-all duration-300 ${
                   selectedCategoryIndex === index ? "text-black" : "text-gray-400"
                 }`}
               >
@@ -127,9 +128,10 @@ const Gallery = () => {
         </ul>
       </div>
 
-      <div className="lg:w-2/3 p-6 space-y-6">
+      {/* Galería de imágenes y miniaturas */}
+      <div className="lg:w-2/3 w-full p-6 space-y-6">
         <div className="mb-8 relative">
-          <div className="w-full h-96 bg-gray-800 rounded-lg overflow-hidden shadow-xl transition-all duration-500 transform hover:scale-105">
+          <div className="w-full h-[300px] sm:h-[400px] lg:h-[500px] bg-gray-800 rounded-lg overflow-hidden shadow-xl transition-all duration-500 transform hover:scale-105">
             <img
               src={activeImage.src}
               alt="Selected"
@@ -153,7 +155,7 @@ const Gallery = () => {
 const Thumbnail = React.memo(({ image, onClick }) => (
   <div
     key={image.id}
-    className="w-24 h-24 bg-gray-700 rounded-lg overflow-hidden cursor-pointer transition-all duration-300 transform hover:scale-110 hover:opacity-80 hover:border-2 hover:border-[#00ffa7]"
+    className="w-20 h-20 sm:w-24 sm:h-24 lg:w-32 lg:h-32 bg-gray-700 rounded-lg overflow-hidden cursor-pointer transition-all duration-300 transform hover:scale-110 hover:opacity-80 hover:border-2 hover:border-[#00ffa7]"
     onClick={() => onClick(image)}
   >
     <img
