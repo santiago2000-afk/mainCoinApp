@@ -1,0 +1,21 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body {
+@apply font-body text-gray-800 bg-gray-900;
+background-color: #061019;
+}
+
+h1, h2, h3, h4 {
+@apply font-display text-white;
+}
+
+p, span {
+@apply font-sans;
+}
