@@ -2,7 +2,7 @@ import React from 'react';
 
 const NavbarRight = () => {
     return (
-        <div className="text-white flex justify-between items-center rounded-lg shadow-lg p-4">
+        <div className="text-white flex justify-between items-center rounded-lg p-4">
             {/* Menú de navegación */}
             <ul className="flex space-x-6 mr-2">
                 <li>
