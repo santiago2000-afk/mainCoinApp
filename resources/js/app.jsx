@@ -7,9 +7,8 @@ import Stats from '../components/content/Stats';
 import Opportunities from '../components/content/Opportunities';
 import Gallery from '../components/content/Gallery';
 import Testimonials from '../components/content/Testimonials';
+import NansenAnalytics from '../components/content/NansenAnalytics';
 import Footer from '../components/footer/Footer';
-
-
 
 function App() {
 
@@ -22,6 +21,7 @@ function App() {
             <Stats />   
             <Gallery />
             <Testimonials />
+            <NansenAnalytics />
             <Footer />
         </>
     );
