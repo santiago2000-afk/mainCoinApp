@@ -2,7 +2,7 @@ import React from "react";
 
 const Opportunities = () => {
   return (
-    <section className="text-white">
+    <section className="text-white py-16">
       <div className="container mx-auto px-6 text-center">
         {/* Title */}
         <h2 className="text-3xl font-extrabold mb-4 leading-snug sm:text-4xl md:text-5xl md:mb-6 lg:text-6xl lg:leading-tight lg:pt-16">
