@@ -5,53 +5,53 @@ const Footer = () => {
     <footer className="text-gray-300">
       <div className="max-w-7xl mx-auto py-8 px-4 sm:py-10 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
-          {/* Sección: Sobre nosotros */}
+          {/* Section: About Us */}
           <div>
-            <h3 className="text-lg font-semibold text-white mb-4">Sobre nosotros</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">About Us</h3>
             <p className="text-sm">
-              Somos una empresa dedicada a brindar soluciones innovadoras y
-              sostenibles para nuestros clientes. Creemos en la excelencia y en
-              el impacto positivo.
+              We are a company dedicated to providing innovative and sustainable
+              solutions for our clients. We believe in excellence and making a
+              positive impact.
             </p>
           </div>
 
-          {/* Sección: Enlaces rápidos */}
+          {/* Section: Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold text-white mb-4">Enlaces rápidos</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
                 <a href="/about" className="hover:text-[#00ffa7]">
-                  Acerca de
+                  About
                 </a>
               </li>
               <li>
                 <a href="/services" className="hover:text-[#00ffa7]">
-                  Servicios
+                  Services
                 </a>
               </li>
               <li>
                 <a href="/contact" className="hover:text-[#00ffa7]">
-                  Contacto
+                  Contact
                 </a>
               </li>
               <li>
                 <a href="/faq" className="hover:text-[#00ffa7]">
-                  Preguntas frecuentes
+                  FAQ
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Sección: Contacto */}
+          {/* Section: Contact */}
           <div>
-            <h3 className="text-lg font-semibold text-white mb-4">Contáctanos</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">Contact Us</h3>
             <p className="text-sm">
               Email:{" "}
-              <a href="mailto:info@empresa.com" className="hover:text-[#00ffa7]">
-                info@empresa.com
+              <a href="mailto:info@company.com" className="hover:text-[#00ffa7]">
+                info@company.com
               </a>
             </p>
-            <p className="text-sm">Teléfono: +34 123 456 789</p>
+            <p className="text-sm">Phone: +34 123 456 789</p>
             <div className="flex space-x-4 mt-4">
               <a
                 href="#"
@@ -85,10 +85,10 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Línea divisoria */}
+        {/* Divider */}
         <div className="border-t border-gray-700 mt-8 pt-6">
           <p className="text-sm text-center">
-            © {new Date().getFullYear()} Tu Empresa. Todos los derechos reservados.
+            © {new Date().getFullYear()} Your Company. All rights reserved.
           </p>
         </div>
       </div>
