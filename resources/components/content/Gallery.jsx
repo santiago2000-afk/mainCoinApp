@@ -76,11 +76,12 @@ const Gallery = () => {
   return (
     <section className="flex flex-col lg:flex-row py-16 text-white">
       {/* Descripción y categorías */}
-      <div className="lg:w-1/3 w-full p-6 space-y-6">
+      <div className="lg:w-1/3 w-full p-6 space-y-6 text-center lg:text-left">
         <div className="mb-8">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-transparent bg-gradient-to-r from-teal-300 via-green-400 to-blue-500 bg-clip-text mb-4 drop-shadow-md">
+          <h1 className="text-3xl sm:text-5xl lg:text-5xl xl:text-6xl font-extrabold text-transparent bg-gradient-to-r from-teal-300 via-green-400 to-blue-500 bg-clip-text mb-4 drop-shadow-md">
             Discover Captivating Visuals
           </h1>
+
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-200 leading-relaxed tracking-wide drop-shadow-md">
             Immerse yourself in a stunning gallery of images across multiple categories. Let your imagination run wild with breathtaking visuals.
           </p>

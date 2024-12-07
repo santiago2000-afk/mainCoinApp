@@ -31,11 +31,12 @@ const Testimonials = () => {
   return (
     <section className="py-8 sm:py-16">
       <div className="container mx-auto text-center text-white px-4 sm:px-6">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-12 text-shadow-lg">
-          What Our Clients Say
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-12 text-shadow-lg">
+          Loved by the Smartest Investors <br /> and Teams in Crypto
         </h2>
 
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
+        {/* Contenedor de testimonios */}
+        <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8">
           {comments.map((comment) => (
             <div
               key={comment.id}
