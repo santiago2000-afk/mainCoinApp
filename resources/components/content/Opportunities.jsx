@@ -5,7 +5,7 @@ const Opportunities = () => {
     <section className="text-white py-16">
       <div className="container mx-auto px-6 text-center">
         {/* Title */}
-        <h2 className="text-3xl font-extrabold mb-4 leading-snug sm:text-4xl md:text-5xl md:mb-6 lg:text-6xl lg:leading-tight lg:pt-16">
+        <h2 className="text-3xl font-extrabold mb-4 leading-snug sm:text-5xl md:text-6xl md:mb-6 lg:text-5xl lg:leading-tight lg:pt-16">
           Uncover Opportunities. <br className="hidden sm:block" /> Maximize Your Edge.
         </h2>
 

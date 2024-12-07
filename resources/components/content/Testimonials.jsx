@@ -29,9 +29,9 @@ const Testimonials = () => {
   ]);
 
   return (
-    <section className="py-8 sm:py-16">
+    <section className="">
       <div className="container mx-auto text-center text-white px-4 sm:px-6">
-        <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold mb-12 text-shadow-lg">
+        <h2 className="text-3xl sm:text-5xl lg:text-5xl font-extrabold mb-12 text-shadow-lg">
           Loved by the Smartest Investors <br /> and Teams in Crypto
         </h2>
 

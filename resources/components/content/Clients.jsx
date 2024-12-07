@@ -17,7 +17,7 @@ const Clients = () => {
   return (
     <section className="py-16">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-2xl font-bold text-white mb-8 sm:text-3xl md:text-4xl">
+        <h2 className="text-2xl font-bold text-white mb-8 sm:text-5xl md:text-4xl lg:text-5xl">
           Trusted by Global Leaders
         </h2>
 

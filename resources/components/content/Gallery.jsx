@@ -78,12 +78,12 @@ const Gallery = () => {
       {/* Descripción y categorías */}
       <div className="lg:w-1/3 w-full p-6 space-y-6 text-center lg:text-left">
         <div className="mb-8">
-          <h1 className="text-3xl sm:text-5xl lg:text-5xl xl:text-6xl font-extrabold text-transparent bg-gradient-to-r from-teal-300 via-green-400 to-blue-500 bg-clip-text mb-4 drop-shadow-md">
-            Discover Captivating Visuals
+          <h1 className="text-3xl sm:text-5xl lg:text-5xl xl:text-6xl font-extrabold text-white bg-clip-text mb-4 drop-shadow-md">
+          10X Your Insights, Not Your Workload
           </h1>
 
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-200 leading-relaxed tracking-wide drop-shadow-md">
-            Immerse yourself in a stunning gallery of images across multiple categories. Let your imagination run wild with breathtaking visuals.
+          We bring everything ambitious crypto investors and teams need to make data-driven, onchain decisions in one platform. Access exclusive insights that no one else has.
           </p>
         </div>
 
@@ -93,7 +93,7 @@ const Gallery = () => {
               key={category.id}
               className={`flex items-center space-x-4 cursor-pointer py-3 px-6 rounded-md transition-all duration-300 transform ${
                 selectedCategoryIndex === index
-                  ? "bg-[#00ffa7] text-black"
+                  ? "text-white"
                   : "hover:bg-[#00ffa7] hover:text-black"
               }`}
               onClick={() => {
@@ -119,7 +119,7 @@ const Gallery = () => {
               </div>
               <span
                 className={`text-xl sm:text-2xl font-semibold transition-all duration-300 ${
-                  selectedCategoryIndex === index ? "text-black" : "text-gray-400"
+                  selectedCategoryIndex === index ? "text-white" : "text-gray-400"
                 }`}
               >
                 {category.name}
