@@ -17,7 +17,7 @@ const Banner = () => {
                 </h2>
                 <a
                     href="http://"
-                    className="bg-white text-[#00ffa7] py-2 px-6 rounded-full text-xs font-semibold hover:bg-gray-100 transition duration-300 mt-3 sm:mt-0"
+                    className="bg-white text-black py-2 px-6 rounded-full text-xs font-semibold hover:bg-gray-100 transition duration-300 mt-3 sm:mt-0"
                 >
                     Explore Now
                 </a>
