@@ -29,7 +29,7 @@ const Testimonials = () => {
   ]);
 
   return (
-    <section className="">
+    <section className="pt-16">
       <div className="container mx-auto text-center text-white px-4 sm:px-6">
         <h2 className="text-3xl sm:text-5xl lg:text-5xl font-extrabold mb-12 text-shadow-lg">
           Loved by the Smartest Investors <br /> and Teams in Crypto
